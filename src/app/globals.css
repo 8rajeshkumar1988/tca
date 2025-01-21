@@ -651,3 +651,103 @@ header{
   }
   
 }
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 80px;
+  height: 80px !important;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Active slide styles */
+.swiper-slide-active {
+  width: 90px;
+  height: 90px !important;
+  border: 5px solid white;
+  border-radius: 50%; /* Ensures perfect circle */
+  background-color: white; /* White background */
+  box-sizing: border-box;
+}
+
+/* Ensure the image inside the active slide is also circular */
+.swiper-slide-active img {
+  width: 80px;  /* Maintain image size */
+  height: 80px;
+  border-radius: 50%;  /* Ensure the image is a perfect circle */
+  background-color: white; /* White background */
+  object-fit: cover;
+  opacity: 1;
+}
+
+/* Thumbnail styling */
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 0.8;
+}
+
+/* General image styling in slides */
+.swiper-slide img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%; /* Ensure all images are circular */
+  opacity: 1;
+  background-color: white; /* White background */
+}
+

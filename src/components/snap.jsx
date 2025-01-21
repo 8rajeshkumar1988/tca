@@ -88,7 +88,7 @@ const Snap = () => {
       </section>
       {openSnap && (
         <div className='fixed backdrop-blur-[15px] bg-[rgba(0, 0, 0, 0.45)] grid place-items-center h-screen w-screen inset-0 z-[9999]'>
-          <div id='snapWrap' className='h-screen relative w-screen lg:h-[80vh] lg:w-[80vw]'>
+          <div id='snapWrap' className='h-screen lg:h-auto relative w-screen aspect-video  lg:w-[80vw] max-w-screen-lg'>
           <PictureModule
           closeSnap={closeSnap}
         />
